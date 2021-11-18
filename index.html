@@ -1,0 +1,109 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TURSHA_A</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <nav class="sticky-top" role="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="logo">
+          <h1>TURSHA_A</h1>
+        </div>
+
+        <ul id="menu">
+          <a href="#home"><li>Home</li></a>
+          <a href="#about"><li>About</li></a>
+          <a href="#projects"><li>Projects</li></a>
+          <a href="#testimonials"><li>Testimonials</li></a>
+          <a href="#contact"><li>Contact</li></a>
+          <a href="#home" target="_blank"><li>Show me more</li></a>
+        </ul>
+      </div>
+    </nav>
+    <section id="home"></section>
+
+
+    <section id="about"></section>
+
+    <section id="projects"></section>
+
+    <section id="testimonials"></section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <div class="forms">
+                  <div class="container-lg p-5">
+                    <div class="text-center">
+                      <h2>GET IN CONTACT WITH ME!!</h2>
+                      <p class="lead">
+                        Questions to ask? Fill out the form to contact me directly...
+                      </p>
+                    </div>
+                    <div class="row justify-content-center my-5">
+                      <div class="col-lg-6">
+                        <form>
+                          <label for="email" class="form-label">Email address:</label>
+                          <div class="input-group mb-4">
+                            <span class="input-group-text">
+                              <i class="bi bi-envelope-fill text-danger"></i>
+                            </span>
+                            <input
+                              type="text"
+                              id="email"
+                              class="form-control"
+                              placeholder="example@gmail.com"
+                            />
+                          </div>
+                          <label for="name" class="form-label">Name:</label>
+                          <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                              <i class="bi bi-person-fill text-warning"></i>
+                            </span>
+                            <input
+                              type="text"
+                              id="name"
+                              class="form-control"
+                              placeholder="name&surname"
+                            />
+                          </div>
+                          <label for="subject" class="form-label">Question?</label>
+                          <div class="mb-4 input-group">
+                            <span class="input-group-text">
+                              <i class="bi bi-chat-right-dots-fill text-primary"></i>
+                            </span>
+                            <select class="form-select" id="subject">
+                              <option value="pricing" selected>Question</option>
+                              
+                            
+                            </select>
+                          </div>
+                          <div class="mb-4 mt-5 form-floating">
+                            <textarea
+                              class="form-control"
+                              id="query"
+                              style="height: 140px"
+                              placeholder="query"
+                            ></textarea>
+                            <label for="query">Your question...</label>
+                          </div>
+                          <div class="mb-4 text-center">
+                            <button type="submit" class="btn btn-danger">Submit</button>
+                          </div>
+                        </form>
+    </section>
+  </body>
+</html>
